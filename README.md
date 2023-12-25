@@ -12,3 +12,6 @@ template 4 -> https://github.com/creativetimofficial/now-ui-react-native
 Comunidad React Native (typescript)
 
 template 1 -> https://github.com/react-native-community/react-native-template-typescript 
+
+Flatlogic
+https://github.com/flatlogic/react-native-starter
