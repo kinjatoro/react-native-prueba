@@ -22,12 +22,11 @@
 
 
 ---
-<br>
+
 # CLASE DE MAZZEO
 * https://uadeeduar.sharepoint.com/:v:/s/Section_414642/EdpPRDBWhqxMrR4NEXVNt9ABxR4jcS9Rzww95IG9sJ5mtQ?e=3AIfUG
 
 ---
-<br>
 
 # TUTORIALES DE REACT NATIVE
 ...
