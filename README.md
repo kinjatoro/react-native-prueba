@@ -13,8 +13,6 @@
   6. Darle a SDK Tools -> Show Package Details -> **31.0.0**
   7. Apply -> tienen que aparecer los 3 componentes -> OK.
 
- 
-
 ### Configurar variables de entorno.
   8. En el buscador de windows poner "variables de entorno".
   9. Darle a "Variables de entorno..."
@@ -24,9 +22,19 @@
   13. "Aceptar"
   14. En "Variables de sistema" buscar "Path" -> "Editar" -> "Nuevo" -> pegar `C:\Users\TU USUARIO DE WINDOWS\AppData\Local\Android\Sdk\platform-tools`
 ### Instalar React Native.
+  15. Abrir el CMD como administrador.
+  16. Si ya habías intentado instalar react native CLI, pegar este código `npm uninstall -g react-native-cli @react-native-community/cli`
 
+### Emular un celular con Android Studio.
+  17. Abrir Android Studio
+  18. "more actions" -> "Virtual Device Manager"
+  19. Puede que aparezca un Pixel_3a con Android 14, ese sería un celular moderno y consume más recursos.
+  20. Para emular un celular más viejo, hay que darle al +.
+  21. Pixel XL -> Next -> R -> Next -> Finish.
+  22. Al darle al trangulito ya ejecuta el emulador.
   
-  
+### Probar la app en un celular real.
+  https://reactnative.dev/docs/running-on-device
 ---
 # TEMPLATES
 
