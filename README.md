@@ -20,11 +20,13 @@
 ### Comunidad React Native
 * Typescript Template -> https://github.com/react-native-community/react-native-template-typescript (typescript)
 
+<br>
 ---
 
 # CLASE DE MAZZEO
 * https://uadeeduar.sharepoint.com/:v:/s/Section_414642/EdpPRDBWhqxMrR4NEXVNt9ABxR4jcS9Rzww95IG9sJ5mtQ?e=3AIfUG
 
+<br>
 ---
 
 # TUTORIALES DE REACT NATIVE
