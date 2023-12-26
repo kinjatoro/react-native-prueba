@@ -9,7 +9,9 @@
   5. En el inicio de Android Studio, darle a "more actions" -> SDK Manager -> Show Package Details -> Android 12.0 ("S") -> Android SDK Platform 31 y Intel x86_64 Atom System Image.
   6. Darle a SDK Tools -> Show Package Details -> 31.0.0
   7. Apply -> OK.
-  ![image](https://github.com/kinjatoro/react-native-prueba/assets/136925952/8dea243e-b481-47f3-b37f-82a1fbe8c755)
+  <br>
+  ![image](https://github.com/kinjatoro/react-native-prueba/assets/136925952/a7c98c88-ee89-40e4-ad03-7ddd6f02753b)
+
 ### Configurar variables de entorno.
   8. En el buscador de windows poner "variables de entorno".
   9. Darle a "Variables de entorno..."
