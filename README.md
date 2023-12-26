@@ -1,7 +1,12 @@
 # COMO CORRER UN PROGRAMA EN REACT NATIVE.
 ### Instalar Chocolatey.
   1. Abrir el CMD como administrador.
-  2. Pegar este comando: `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072;     iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
+  2. Pegar este comando:
+    ```cmd
+
+    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072;     iex ((New-Object         System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+    ```
+      
 ### Instalar Nodejs-LTS y JDK11 (aunque ya tengas instaladas otras versiones).
   3. Pegar este otro comando: `choco install -y nodejs-lts openjdk11`
 ### Instalar Android Studio.
