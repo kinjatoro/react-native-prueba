@@ -39,8 +39,10 @@
   28. Ejecutamos `code .`
   29. Ejecutamos `npm start` (desde el CMD)
   30. En el VS Code, abrimos una nueva terminal (CTRL shift ñ)
-  31. Desde esa nueva terminal ejecutamos `npm run android`. Esta parte tarda bastante y consume mucha CPU
-  
+  31. Desde esa nueva terminal ejecutamos `npm run android`. Esta parte tarda bastante y consume mucha CPU.
+  32. Si queremos correr el programa en otro momento, solo hay que darle a `npm start` y `npm run android` desde el VS Code.
+
+
 ### Probar la app en un celular real.
 https://reactnative.dev/docs/running-on-device
 
