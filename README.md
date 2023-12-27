@@ -1,5 +1,5 @@
 # COMO CORRER UN PROGRAMA EN REACT NATIVE.
-## Prerequisitos
+## 1. Prerequisitos
 ### Instalar Chocolatey.
   1. Abrir el CMD como administrador.
   2. Pegar este comando:
