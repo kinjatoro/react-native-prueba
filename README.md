@@ -32,7 +32,7 @@
   22. Eliminar el Pixel_3a.
   23. Cerrar Android Studio.
 
-## Crear un proyecto de 0 con React Native (CLI).
+## 2. Crear un proyecto de 0 con React Native (CLI).
   24. Abrir el CMD como administrador.
   25. Ir desde los comandos a la carpeta donde queremos que esté LA CARPETA que contiene todo el proyecto (ojo con eso).
   26. Ejecutamos `npx react-native init NOMBREDELPROYECTO`
@@ -43,7 +43,7 @@
   31. Desde esa nueva terminal ejecutamos `npm run android`. Esta parte tarda bastante y consume mucha CPU.
   32. Si queremos correr el programa en otro momento, solo hay que darle a `npm start` y `npm run android` desde el VS Code.
 
-## Correr un proyecto ya creado.
+## 3. Correr un proyecto ya creado.
   1. Abrimos el CMD
   2. Ejecutamos `npx create-expo-app NOMBREDELPROYECTO` **[EXPO]** ó `npx react-native init NOMBREDELPROYECTO` **[CLI]** en la carpeta donde queramos instalar el proyecto.
   3. `cd NOMBREDELPROYECTO`
@@ -53,7 +53,7 @@
   7. Desde la terminal de VS Code: `npm run android`
     
 
-## Probar la app en un celular real.
+## 4. Probar la app en un celular real.
 https://reactnative.dev/docs/running-on-device
 
 ---
