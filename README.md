@@ -83,6 +83,7 @@ https://reactnative.dev/docs/running-on-device
 ---
 # TUTORIALES DE REACT NATIVE
 * https://youtu.be/qi87b6VcIHY (midudev)
+
 ...
 # LIBRERÍAS DE COMPONENTES
 * Tamagui -> https://tamagui.dev/
