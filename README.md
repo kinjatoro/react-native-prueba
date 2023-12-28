@@ -33,7 +33,7 @@
   23. Cerrar Android Studio.
 
 ## 2. Crear un proyecto de 0 con React Native (CLI).
-  24. Abrir el CMD como administrador.
+  24. Abrir el CMD.
   25. Ir desde los comandos a la carpeta donde queremos que esté LA CARPETA que contiene todo el proyecto (ojo con eso).
   26. Ejecutamos `npx react-native init NOMBREDELPROYECTO`
   27. Ejecutamos `cd NOMBREDELPROYECTO`
