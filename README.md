@@ -1,5 +1,6 @@
 # COMO CORRER UN PROGRAMA EN REACT NATIVE.
-## 1. Prerequisitos
+Hay dos formas de crear un proyecto en React Native, CLI y EXPO. En CLI vos tenés que preparar el emulador, instalar node, java, etc. EXPO ya lo trae todo pre-armado.
+## Opción A: CLI - Prerequisitos
 ### Instalar Chocolatey.
   1. Abrir el CMD como administrador.
   2. Pegar este comando:
@@ -7,41 +8,47 @@
     @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072;     iex ((New-Object         System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
       
 ### Instalar Nodejs-LTS y JDK11 (aunque ya estén instaladas otras versiones).
-  3. Pegar este otro comando: `choco install -y nodejs-lts openjdk11`
+  1. Pegar este otro comando: `choco install -y nodejs-lts openjdk11`
 ### Instalar Android Studio.
-  4. Ir a https://developer.android.com/studio (son casi 8GB, tarda bastante).
-  5. En el inicio de Android Studio, darle a "more actions" -> SDK Manager -> Show Package Details -> Android 12.0 ("S") -> **Android SDK Platform 31** y **Intel x86_64 Atom System Image**.
-  6. Darle a SDK Tools -> Show Package Details -> **31.0.0**
-  7. Apply -> tienen que aparecer los 3 componentes -> OK.
+  1. Ir a https://developer.android.com/studio (son casi 8GB, tarda bastante).
+  2. En el inicio de Android Studio, darle a "more actions" -> SDK Manager -> Show Package Details -> Android 12.0 ("S") -> **Android SDK Platform 31** y **Intel x86_64 Atom System Image**.
+  3. Darle a SDK Tools -> Show Package Details -> **31.0.0**
+  4. Apply -> tienen que aparecer los 3 componentes -> OK.
 
 ### Configurar variables de entorno.
-  8. En el buscador de Windows poner "variables de entorno".
-  9. Darle a "Variables de entorno..."
-  10. En "Variables de usuario" darle a "Nuevo"
-  11. Nombre: `ANDROID_HOME`
-  12. Valor: `C:\Users\TU USUARIO DE WINDOWS\AppData\Local\Android\Sdk`
-  13. "Aceptar"
-  14. En "Variables de sistema" buscar "Path" -> "Editar" -> "Nuevo" -> pegar `C:\Users\TU USUARIO DE WINDOWS\AppData\Local\Android\Sdk\platform-tools`
+  1. En el buscador de Windows poner "variables de entorno".
+  2. Darle a "Variables de entorno..."
+  3. En "Variables de usuario" darle a "Nuevo"
+  4. Nombre: `ANDROID_HOME`
+  5. Valor: `C:\Users\TU USUARIO DE WINDOWS\AppData\Local\Android\Sdk`
+  6. "Aceptar"
+  7. En "Variables de sistema" buscar "Path" -> "Editar" -> "Nuevo" -> pegar `C:\Users\TU USUARIO DE WINDOWS\AppData\Local\Android\Sdk\platform-tools`
 
 ### Crear un celular para usar de emulador.
-  17. Abrir Android Studio
-  18. "more actions" -> "Virtual Device Manager"
-  19. Puede que aparezca un Pixel_3a con Android 14, ese sería un celular moderno y consume más recursos.
-  20. Para emular un celular más viejo, hay que darle al +.
-  21. Pixel XL -> Next -> R -> Next -> Finish.
-  22. Eliminar el Pixel_3a.
-  23. Cerrar Android Studio.
+  1. Abrir Android Studio
+  2. "more actions" -> "Virtual Device Manager"
+  3. Puede que aparezca un Pixel_3a con Android 14, ese sería un celular moderno y consume más recursos.
+  4. Para emular un celular más viejo, hay que darle al +.
+  5. Pixel XL -> Next -> R -> Next -> Finish.
+  6. Eliminar el Pixel_3a.
+  7. Cerrar Android Studio.
 
-## 2. Crear un proyecto de 0 con React Native (CLI).
-  24. Abrir el CMD.
-  25. Ir desde los comandos a la carpeta donde queremos que esté LA CARPETA que contiene todo el proyecto (ojo con eso).
-  26. Ejecutamos `npx react-native init NOMBREDELPROYECTO`
-  27. Ejecutamos `cd NOMBREDELPROYECTO`
-  28. Ejecutamos `code .`
-  29. Ejecutamos `npm start` (desde el CMD)
-  30. En el VS Code, abrimos una nueva terminal (CTRL shift ñ)
-  31. Desde esa nueva terminal ejecutamos `npm run android`. Esta parte tarda bastante y consume mucha CPU.
-  32. Si queremos correr el programa en otro momento, solo hay que darle a `npm start` y `npm run android` desde el VS Code.
+## Opción B: Expo - Prerequisitos
+  ninguno jaja
+
+## 2A. Crear un proyecto de 0 con React Native (CLI).
+  1. Abrir el CMD.
+  2. Ir desde los comandos a la carpeta donde queremos que esté LA CARPETA que contiene todo el proyecto (ojo con eso).
+  3. Ejecutamos `npx react-native init NOMBREDELPROYECTO`
+  4. Ejecutamos `cd NOMBREDELPROYECTO`
+  5. Ejecutamos `code .`
+  6. Ejecutamos `npm start` (desde el CMD)
+  7. En el VS Code, abrimos una nueva terminal (CTRL shift ñ)
+  8. Desde esa nueva terminal ejecutamos `npm run android`. Esta parte tarda bastante y consume mucha CPU.
+  9. Si queremos correr el programa en otro momento, solo hay que darle a `npm start` y `npm run android` desde el VS Code.
+
+## 2B. Crear un proyecto de 0 con React Native (Expo).
+  1. `npx create-expo-app AwesomeProject`
 
 ## 3. Correr un proyecto ya creado.
   1. Abrimos el CMD
