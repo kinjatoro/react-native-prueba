@@ -34,7 +34,7 @@ Hay dos formas de crear un proyecto en React Native, CLI y EXPO. En CLI vos ten√
   7. Cerrar Android Studio.
 
 ## Opci√≥n B: Expo - Prerequisitos
-  ninguno jaja
+  * ninguno jaja
 
 ## 2A. Crear un proyecto de 0 con React Native (CLI).
   1. Abrir el CMD.
