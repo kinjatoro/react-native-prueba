@@ -91,6 +91,7 @@ https://reactnative.dev/docs/running-on-device
 # TUTORIALES DE REACT NATIVE
 * https://youtu.be/qi87b6VcIHY (expo)
 * https://youtu.be/Dl8x8EWXq8s (expo también)
+* https://youtu.be/W1Co2M-gsQE (CLI)
 ---
 # LIBRERÍAS DE COMPONENTES
 * Tamagui -> https://tamagui.dev/
