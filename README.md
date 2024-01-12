@@ -96,3 +96,4 @@ https://reactnative.dev/docs/running-on-device
 ---
 # LIBRERÍAS DE COMPONENTES
 * Tamagui -> https://tamagui.dev/
+* React Native Elements -> https://reactnativeelements.com/
