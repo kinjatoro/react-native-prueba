@@ -1,5 +1,6 @@
-# COMO CORRER UN PROGRAMA EN REACT NATIVE.
+# COMO CORRER UN PROGRAMA EN REACT NATIVE. 
 Hay dos formas de crear un proyecto en React Native, CLI y EXPO. En CLI vos tenés que preparar el emulador, instalar node, java, etc. EXPO ya lo trae todo pre-armado.
+Fuente: https://youtu.be/8ejuHsaXiwU
 ## Opción A: CLI - Prerequisitos
 ### Instalar Chocolatey.
   1. Abrir el CMD como administrador.
