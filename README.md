@@ -49,7 +49,8 @@ Fuente: https://youtu.be/8ejuHsaXiwU
   9. Si queremos correr el programa en otro momento, solo hay que darle a `npm start` y `npm run android` desde el VS Code.
 
 ## 2B. Crear un proyecto de 0 con React Native (Expo).
-  1. `npx create-expo-app AwesomeProject`
+  1. Abrir el emulador de Android
+  2. En el CMD, en la carpeta donde queramos instalar el proyecto ejecutar `npx create-expo-app AwesomeProject`
 
 ## 3. Correr un proyecto ya creado.
   1. Abrimos el CMD
