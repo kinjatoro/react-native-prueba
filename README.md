@@ -38,15 +38,16 @@ Fuente: https://youtu.be/8ejuHsaXiwU
   * ninguno jaja
 
 ## 2A. Crear un proyecto de 0 con React Native (CLI).
-  1. Abrir el CMD.
-  2. Ir desde los comandos a la carpeta donde queremos que esté LA CARPETA que contiene todo el proyecto (ojo con eso).
-  3. Ejecutamos `npx react-native init NOMBREDELPROYECTO`
-  4. Ejecutamos `cd NOMBREDELPROYECTO`
-  5. Ejecutamos `code .`
-  6. Ejecutamos `npm start` (desde el CMD)
-  7. En el VS Code, abrimos una nueva terminal (CTRL shift ñ)
-  8. Desde esa nueva terminal ejecutamos `npm run android`. Esta parte tarda bastante y consume mucha CPU.
-  9. Si queremos correr el programa en otro momento, solo hay que darle a `npm start` y `npm run android` desde el VS Code.
+  1. Reiniciar la PC para validar los paths que configuramos antes [IMPORTANTE]
+  2. Abrir el CMD.
+  3. Ir desde los comandos a la carpeta donde queremos que esté LA CARPETA que contiene todo el proyecto (ojo con eso).
+  4. Ejecutamos `npx react-native init NOMBREDELPROYECTO`
+  5. Ejecutamos `cd NOMBREDELPROYECTO`
+  6. Ejecutamos `code .`
+  7. Ejecutamos `npm start` (desde el CMD)
+  8. En el VS Code, abrimos una nueva terminal (CTRL shift ñ)
+  9. Desde esa nueva terminal ejecutamos `npm run android`. Esta parte tarda bastante y consume mucha CPU.
+  10. Si queremos correr el programa en otro momento, solo hay que darle a `npm start` y `npm run android` desde el VS Code.
 
 ## 2B. Crear un proyecto de 0 con React Native (Expo).
   1. Abrir el emulador de Android
