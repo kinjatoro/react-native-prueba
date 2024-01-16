@@ -16,6 +16,11 @@ Fuente: https://youtu.be/8ejuHsaXiwU
   3. Darle a SDK Tools -> Show Package Details -> **31.0.0**
   4. Apply -> tienen que aparecer los 3 componentes -> OK.
 
+### Instalar Java 17
+  1. Entrar a [Este link](https://www.oracle.com/ar/java/technologies/downloads/#jdk17-windows)
+  2. Descargar x64 MSI Installer
+  3. Darle que sí a todo e instalar Java.
+
 ### Configurar variables de entorno.
   1. En el buscador de Windows poner "variables de entorno".
   2. Darle a "Variables de entorno..."
@@ -23,7 +28,12 @@ Fuente: https://youtu.be/8ejuHsaXiwU
   4. Nombre: `ANDROID_HOME`
   5. Valor: `C:\Users\TU USUARIO DE WINDOWS\AppData\Local\Android\Sdk`
   6. "Aceptar"
-  7. En "Variables de sistema" buscar "Path" -> "Editar" -> "Nuevo" -> pegar `C:\Users\TU USUARIO DE WINDOWS\AppData\Local\Android\Sdk\platform-tools`
+  7. "Nuevo" otra vez
+  8. Nombre: `JAVA_HOME`
+  9. Valor: `C:\Program Files\Java\jdk-17`
+  10. Ahora en "Variable de sistema" dale a "Nuevo" y pegar otra vez `JAVA_HOME` y `C:\Program Files\Java\jdk-17`
+  11. En "Variables de sistema" buscar "Path" -> "Editar" -> "Nuevo" -> pegar `C:\Users\TU USUARIO DE WINDOWS\AppData\Local\Android\Sdk\platform-tools`
+
 
 ### Crear un celular para usar de emulador.
   1. Abrir Android Studio
