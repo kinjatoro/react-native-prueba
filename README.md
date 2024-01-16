@@ -17,7 +17,7 @@ Fuente: https://youtu.be/8ejuHsaXiwU
   4. Apply -> tienen que aparecer los 3 componentes -> OK.
 
 ### Instalar Java 17
-  1. Entrar a [Este link](https://www.oracle.com/ar/java/technologies/downloads/#jdk17-windows)
+  1. Entrar a [este link](https://www.oracle.com/ar/java/technologies/downloads/#jdk17-windows)
   2. Descargar x64 MSI Installer
   3. Darle que sí a todo e instalar Java.
 
