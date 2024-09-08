@@ -1,15 +1,21 @@
 trigger:
 - main
 
+resources:
+  repositories:
+    - repository: mygithubrepo
+      type: github
+      name: kinjatoro/react-native-prueba
+      endpoint: pipeline3 # Nombre de la conexión de servicio
+
 pool:
-  name: Default # Usa el nombre correcto de tu pool de agentes auto-hospedados
+  name: Default # Nombre del pool de agentes auto-hospedados
 
 steps:
-- checkout: self
-  name: CheckoutGitHub
-  endpoint: pipeline3 # Nombre de la conexión de servicio para GitHub
+- checkout: mygithubrepo # Usar el nombre del repositorio definido en `resources`
 
 - script: |
     echo "Hello, World!"
   displayName: 'Run a one-line script'
+
 
