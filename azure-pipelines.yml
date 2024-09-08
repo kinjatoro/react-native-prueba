@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  name: Default # Usa el nombre correcto de tu pool de agentes auto-hospedados
+
+steps:
+- checkout: git://github.com/kinjatoro/react-native-prueba
+
